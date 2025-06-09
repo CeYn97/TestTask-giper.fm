@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from '../../styles/shared.module.css';
+import React from "react";
+import styles from "../../styles/Shared.module.css";
 
 interface Props extends React.InputHTMLAttributes<HTMLInputElement> {}
 
