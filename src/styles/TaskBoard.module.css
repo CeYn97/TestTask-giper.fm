@@ -1,0 +1,32 @@
+.taskSection {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 32px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.taskList {
+  color: black;
+  list-style: none;
+  padding: 0;
+}
+
+.taskList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.taskList li.done label {
+  text-decoration: line-through;
+  color: #888;
+}
